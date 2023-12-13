@@ -31,22 +31,22 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Desenvolvimento de um aplicativo digital wallet,iniciante. ",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Contribuiçao no processo de desenvolvimento e prototipaçao de interface do usuario do aplicativo.",
+    url: "https://github.com/RianLandim/digital-wallet.git",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Desenvolvimento de um site para uma empresa de comércio eletrônico, iniciante.",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Contribuição por criar a interface do usuário do site, como layout, navegaçao e interação com o usuário",
+    url: "https://github.com/JLMY-Commerce/core_web_services.git",
   },
   {
-    title: "My Resume Site",
+    title: "Demostraçoes com Html e Css",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Criando interface e inspiraçoes com Html e Css",
+    url: "https://github.com/yuliaardrigues/Demos-Html-e-CSS.git",
   },
   {
     title: "GitHub Codespaces and github.dev",
