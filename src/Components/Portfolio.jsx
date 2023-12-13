@@ -33,7 +33,7 @@ const projectList = [
   {
     title: "Desenvolvimento de um aplicativo digital wallet,iniciante. ",
     description:
-      "Contribuiçao no processo de desenvolvimento e prototipaçao de interface do usuario do aplicativo.",
+      "Contribuiçao no processo de desenvolvimento e prototipaçao de interface do usuario do aplicativo com React Native.",
     url: "https://github.com/RianLandim/digital-wallet.git",
   },
   {
@@ -49,10 +49,10 @@ const projectList = [
     url: "https://github.com/yuliaardrigues/Demos-Html-e-CSS.git",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Cia aeréa",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Projeto Oritação a objetos e um front-end simples com Html e Css integraçao do back-end e o banco de dados com o framework Django",
+    url: "https://github.com/yuliaardrigues/POO-BD.git",
   },
 ];
 
