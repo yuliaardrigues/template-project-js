@@ -25,7 +25,7 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Yúlia Rodrigues",
-  title: "Web Designer & Content Creator",
+  title: "Desenvolvedora Front-End",
   email: "rodriguesyulia25@gmail.com",
   gitHub: "https://github.com/yuliaardrigues",
   instagram: "@yuliarodrigues",
