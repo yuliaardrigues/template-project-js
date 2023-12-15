@@ -26,9 +26,9 @@ import "./styles.css";
 const siteProps = {
   name: "Yúlia Rodrigues",
   title: "Desenvolvedora Front-End",
-  email: "rodriguesyulia25@gmail.com",
+  email: "https://mail.google.com/mail/u/0/?pli=1#inbox",
   gitHub: "https://github.com/yuliaardrigues",
-  instagram: "@yuliarodrigues",
+  instagram: "https://www.instagram.com/yuliarodrigues/",
   linkedIn: "www.linkedin.com/in/yúlia-rodrigues-1b9384220",
   medium: "",
 };
