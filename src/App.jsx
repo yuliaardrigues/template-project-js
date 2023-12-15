@@ -24,11 +24,11 @@ import "./styles.css";
  * If you don't have one of the social sites listed, leave it as an empty string.
  */
 const siteProps = {
-  name: "Yulia Rodrigues",
-  title: "Web Designer & Content Creator",
-  email: "rodriguesyulia25@gmail.com",
+  name: "Yúlia Rodrigues",
+  title: "Desenvolvedora Front-End",
+  email: "https://mail.google.com/mail/u/0/?pli=1#inbox",
   gitHub: "https://github.com/yuliaardrigues",
-  instagram: "@yuliarodrigues",
+  instagram: "https://www.instagram.com/yuliarodrigues/",
   linkedIn: "www.linkedin.com/in/yúlia-rodrigues-1b9384220",
   medium: "",
 };
