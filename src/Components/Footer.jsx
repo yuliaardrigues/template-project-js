@@ -49,7 +49,7 @@ const Footer = (props) => {
             <img src={envelopeIcon} alt="email" className="socialIcon" />
           </a>
         )}
-        const devDotTo = props.devDotTo;
+       
         {gitHub && (
           <a href={`https://github.com/${gitHub}`} target="_blank" rel="noopener noreferrer">
             <img src={gitHubIcon} alt="GitHub" className="socialIcon" />
