@@ -1,35 +1,15 @@
-/**
- * About component
- *
- * Space for you to describe more about yourself.
- */
 
 import React from "react";
 
-/**
- * About background image
- *
- * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
- * represents what you see in that image.
- *
- * Need an image? Check out https://unsplash.com to download a image you
- * freely use on your site.
- */
 import image from "../images/sl_031520_28970_32.jpg";
 
 const imageAltText = "purple and blue abstract background";
 
-/**
- * Sort description that expands on your title on the Home component.
- */
+
 const description =
   "Sou uma estudante de Sistemas de Informação no Centro Universitário Paraíso, com foco em Front-end.";
 
-/**
- * List of some of skills or technologies you work on, are learning,
- * passionate about, or enjoy,
- */
+
 const skillsList = [
   "Html e Css",
   "Design responsivo e mobile first.",
@@ -39,24 +19,19 @@ const skillsList = [
   "Experiência com Git e GitHub.",
 ];
 
-/**
- * Use this to give more information about what you are passionate about,
- * how you best work, or even a quote. This will help someone learn more
- * about you on a professional level.
- */
+
 const detailOrQuote =
-  "Tenho paixão por design e desenvolvimento de interfaces, e estou sempre buscando aprender novas tecnologias e técnicas.";
+  "Sou apaixonada por design e desenvolvimento de interfaces, dedicado a explorar continuamente novas tecnologias e técnicas no âmbito do front-end. Busco aprimorar constantemente minhas habilidades, mantendo-me atualizado com as últimas tendências e inovações para oferecer experiências digitais envolventes e de alta qualidade. Minha abordagem proativa reflete meu compromisso em estar na vanguarda do design e desenvolvimento, impulsionando a excelência na criação de interfaces impactantes.";
 
 const About = () => {
   return (
     <section className="padding" id="Sobre">
-      <img className="background" src={image} alt={imageAltText} />
       <div
         style={{
           backgroundColor: "white",
-          width: "50%",
-          padding: "4rem",
-          margin: "3rem auto",
+          width: "100%",
+          padding: "1rem",
+          margin: "1rem auto",
           textAlign: "center",
         }}
       >
