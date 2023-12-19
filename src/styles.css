@@ -1,6 +1,3 @@
-/**
-* CSS file to hold styles that apply across the application
-*/
 
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap");
 
@@ -20,8 +17,6 @@ div#main {
   width: 100vw;
 }
 
-
-
 section {
   position: relative;
   width: 100vw;
@@ -32,7 +27,7 @@ section.min-height {
 }
 
 section.padding {
-  padding: 5rem 0;
+  padding: 2rem 0;
 }
 
 section img.background {
@@ -56,18 +51,19 @@ h1 {
 }
 
 h2 {
+  margin: 0;
   font-size: 2vw;
   font-weight: 400;
-  margin: 0;
   padding-top: 1rem;
+  position: relative;
+  padding: top;
+  z-index: 1;
+  text-align: center;
 }
+
 @media (max-width: 600px) {
   h1 {
     font-size: 10vw;
-  }
-
-  h2 {
-    font-size: 4vw; 
   }
 }
 
@@ -78,7 +74,6 @@ h3 {
 }
 
 p {
-  font-size: 18px;
   line-height: 1.5;
   margin-bottom: 0;
   font-weight: 300;
@@ -92,8 +87,14 @@ p.small {
   font-size: 15px;
 }
 
+.h2{
+  font-size: 2vw; 
+}
+
 hr {
-  margin: 2.5rem;
+  margin: 20px; 
+  border-right: 1px solid rgb(8, 8, 8); 
+  height: 100%;
 }
 
 li {
@@ -115,14 +116,18 @@ a:hover {
 
 .container {
   display: grid;
-  grid-gap: 20px;
-  grid-template-columns: 330px 300px;
-  margin: 20px auto;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px; 
+  grid-template-rows: auto; 
+  padding-bottom: 50px;
+  margin: 0 auto;
+  width: 600px; 
+  max-width: 100%;
 }
 
 .container .box {
   border-radius: 10px;
-  border: 1px solid rgb(204, 204, 204);
+  border: 1px solid rgb(8, 8, 8);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
